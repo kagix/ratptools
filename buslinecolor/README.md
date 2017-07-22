@@ -42,8 +42,11 @@ java -jar <path to jar-name> --generate-tab
 Report below:
 
 |         Bus line         |        Best guess        |   Best guess hex value   |
+
 |574-TUC-E                 |     130|     220|     115|          82DC73          |
+
 |76                        |     100|       0|     130|          640082          |
+
 |N11                       |     255|      90|       0|          FF5A00          |
 
 
@@ -56,8 +59,11 @@ java -jar <path to jar-name> --generate-csv
 Report below:
  
 Bus line;Best guess red;Best guess green;Best guess blue;Best guess hex value
+
 574-TUC-E;130;220;115;82DC73
+
 76;100;0;130;640082
+
 N11;255;90;0;FF5A00
 
 
