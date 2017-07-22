@@ -40,7 +40,7 @@ public class Helper
     helpMessage.append("]"); 
     helpMessage.append("\n"); 
 
-    helpMessage.append("This tool needs to be run in a folder with the .PNG image files from RATB. ");
+    helpMessage.append("This tool needs to be run in a folder with the .PNG image files from RATP. ");
     helpMessage.append("You can download the official zip file from: ");
     helpMessage.append("'https://data.ratp.fr/explore/?sort=modified' ");
     helpMessage.append("Look for the section 'Indice des lignes de bus du réseau RATP'. ");

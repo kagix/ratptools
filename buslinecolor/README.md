@@ -9,4 +9,12 @@ mvn archetype:generate -DgroupId=net.kagix.gtfs.ratptools -DartifactId=buslineco
 mvn package
 
 
+## Data to which the tool applies
 
+This tool needs to be run in a folder with the .PNG image files from RATP.
+You can download the official zip file from: 
+'https://data.ratp.fr/explore/?sort=modified' 
+Look for the section 'Indice des lignes de bus du réseau RATP'. 
+There search for section 'Pièces jointes'. 
+You will find the ZIP file 'indices.zip'. 
+The ZIP file contains the PNG images.
