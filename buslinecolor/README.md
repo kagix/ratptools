@@ -8,7 +8,7 @@ mvn archetype:generate -DgroupId=net.kagix.gtfs.ratptools -DartifactId=buslineco
 
 mvn package
 
-Will generate the jar file ./target/buslinecolor-1.0-SNAPSHOT.jar, called below <jar-name>  
+Will generate the jar file ./target/buslinecolor-1.0-SNAPSHOT.jar, called below jar-name  
 
 ## Data to which the tool applies
 
@@ -22,22 +22,22 @@ The ZIP file contains the PNG images.
 
 ## First use of the tool
 
-java -jar <jar-name> ARGS
+java -jar jar-name ARGS
 
 If no arguments provided, it will print a short help message:
 
-Please execute: java -jar <jar-name> -h
+Please execute: java -jar jar-name -h
 
 The -h switch activates the help message:
 
-java -jar <jar-name> [-h|--help][--generate-csv][--generate-tab]
+java -jar jar-name [-h|--help][--generate-csv][--generate-tab]
 
 
 ## How to use the tool and generate tabular reports
 
-cd <the folder with PNG image files>
+cd the folder with PNG image files
 
-java -jar <path to jar-name> --generate-tab
+java -jar path to jar-name --generate-tab
 
 Report below:
 
@@ -52,9 +52,9 @@ Report below:
 
 ## How to use the tool and generate tabular reports
 
-cd <the folder with PNG image files>
+cd the folder with PNG image files
 
-java -jar <path to jar-name> --generate-csv
+java -jar path to jar-name --generate-csv
 
 Report below:
  
